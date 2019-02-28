@@ -10,8 +10,4 @@
   "dependencies": {
     "express": "^4.16.4",
     "latest-version": "^4.0.0"
-  },
-  "publishConfig": {
-    "registry": "http://artifactory.westus.cloudapp.azure.com:8081/artifactory/api/npm/albatross/"
   }
-}
