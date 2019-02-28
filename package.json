@@ -1,0 +1,17 @@
+{
+  "name": "docker_web_app",
+  "version": "1.0.19",
+  "description": "Node.js on Docker",
+  "author": "charles <charles.lucca@gavb.com.br>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "latest-version": "^4.0.0"
+  },
+  "publishConfig": {
+    "registry": "http://artifactory.westus.cloudapp.azure.com:8081/artifactory/api/npm/albatross/"
+  }
+}
